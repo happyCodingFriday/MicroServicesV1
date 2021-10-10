@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityLogger", "ActivityLogger\ActivityLogger.csproj", "{F36BBE39-DAF3-4C66-A763-8CB1FBEB5E61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{284405CD-2AFB-44FD-A614-A7D624F61FAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{F36BBE39-DAF3-4C66-A763-8CB1FBEB5E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F36BBE39-DAF3-4C66-A763-8CB1FBEB5E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F36BBE39-DAF3-4C66-A763-8CB1FBEB5E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284405CD-2AFB-44FD-A614-A7D624F61FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284405CD-2AFB-44FD-A614-A7D624F61FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284405CD-2AFB-44FD-A614-A7D624F61FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284405CD-2AFB-44FD-A614-A7D624F61FAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
