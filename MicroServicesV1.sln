@@ -6,14 +6,37 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{ABBE9A86-5D9B-426D-BBF3-6AE3AC5158A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityLogger", "..\ActivityLogger\ActivityLogger.csproj", "{60AA3F27-AB6C-43C1-A27C-6AA35AC0A3F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CCBF100-6CF2-40A8-AC4E-1211B9309A77} = {3CCBF100-6CF2-40A8-AC4E-1211B9309A77}
+		{94C0E611-44B7-44ED-BDDF-CD94B5EDC19A} = {94C0E611-44B7-44ED-BDDF-CD94B5EDC19A}
+		{3CDC8C91-390B-44E1-B41B-A38D34086899} = {3CDC8C91-390B-44E1-B41B-A38D34086899}
+		{F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A} = {F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalog", "..\ProductCatalog\ProductCatalog.csproj", "{F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CDC8C91-390B-44E1-B41B-A38D34086899} = {3CDC8C91-390B-44E1-B41B-A38D34086899}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "..\ShoppingCart\ShoppingCart.csproj", "{3CDC8C91-390B-44E1-B41B-A38D34086899}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "..\Interfaces\Interfaces.csproj", "{3CCBF100-6CF2-40A8-AC4E-1211B9309A77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94C0E611-44B7-44ED-BDDF-CD94B5EDC19A} = {94C0E611-44B7-44ED-BDDF-CD94B5EDC19A}
+		{3CDC8C91-390B-44E1-B41B-A38D34086899} = {3CDC8C91-390B-44E1-B41B-A38D34086899}
+		{F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A} = {F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "..\Middleware\Middleware.csproj", "{94C0E611-44B7-44ED-BDDF-CD94B5EDC19A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CDC8C91-390B-44E1-B41B-A38D34086899} = {3CDC8C91-390B-44E1-B41B-A38D34086899}
+		{F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A} = {F0BD1C9F-0FF5-4E15-9CD3-656FB096B89A}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{208651C4-7CCA-42FB-8B50-99E2375165FE}"
+	ProjectSection(SolutionItems) = preProject
+		.filenesting.json = .filenesting.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
